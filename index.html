@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptar y Desencriptar texto</title>
+</head>
+<body background="url('https://www.softzone.es/app/uploads-softzone.es/2020/05/Programas-cifrar-archivos.jpg')">
+    <main class="main">
+        <section>
+            <textarea id="texto-encriptado" class="campo-texto" placeholder="Escriba texto a encriptar"  cols="30" rows="10">
+            </textarea>
+            <div class="btn">
+                <button class="btnEncriptar" id="encriptar" onclick="btnEncriptar();">Encriptar</button>
+                <button class="btnDesencriptar" id="desencriptar" onclick="btnDesencriptar();">Desencriptar</button>
+                <button class="limpiar" onclick="btnLimpiar()">Limpiar campos</button>
+            </div>
+        </section>
+        <section class="campo-mensaje">
+            <textarea name="" id="texto-mensaje" class="mensaje" cols="30" rows="10">
+            </textarea>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

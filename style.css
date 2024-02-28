@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.softzone.es/app/uploads-softzone.es/2020/05/Programas-cifrar-archivos.jpg);
+}
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.campo-texto{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btnEncriptar{
+    background: darkolivegreen;
+    font-size: 15px;
+    cursor: pointer;
+    border: 10px;
+    border-radius: 10px;
+}
+.btnEncriptar:hover{
+    color: aliceblue;
+    font-size: 17px;
+}
+.btnDesencriptar{
+    background: darkmagenta;
+    font-size: 15px;
+    cursor: pointer;
+    border: 10px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.btnDesencriptar:hover{
+    color: aliceblue;
+    font-size: 17px;
+}
+.limpiar{
+    background: darkblue;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 2px;
+}
+.limpiar:hover{
+    color: aqua;
+    font-size: 17px;
+}
+section .campo-mensaje{
+    width: 50%;
+}
+.mensaje{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
